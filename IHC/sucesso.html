@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Emitida - Sucesso</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <style>
+        /* ESTILOS EXCLUSIVOS DA TELA DE SUCESSO */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .root-sucesso {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+        }
+
+        .header-rf {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .header-title {
+            color: #1a56db;
+            font-weight: 800;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .main-sucesso {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px 16px;
+        }
+
+        .success-card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 32px 24px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            max-width: 380px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #eef0f2;
+            box-sizing: border-box;
+        }
+
+        .success-icon-box {
+            background-color: #86efac;
+            width: 70px;
+            height: 70px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .success-icon-box i {
+            font-size: 32px;
+            color: #166534;
+        }
+
+        .success-title {
+            color: #1e293b;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0 0 8px 0;
+        }
+
+        .success-message {
+            color: #64748b;
+            font-size: 14px;
+            margin: 0 0 24px 0;
+            line-height: 1.5;
+        }
+
+        .success-details-row {
+            display: flex;
+            gap: 12px;
+            width: 100%;
+            margin-bottom: 24px;
+        }
+
+        .detail-box {
+            flex: 1;
+            background-color: #f4f4f5;
+            padding: 16px 12px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .detail-label {
+            font-size: 10px;
+            font-weight: bold;
+            color: #71717a;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+        }
+
+        .detail-value {
+            font-size: 15px;
+            font-weight: 800;
+            color: #27272a;
+        }
+
+        .blue-text {
+            color: #2563eb;
+        }
+
+        .download-btn {
+            width: 100%;
+            background-color: #2563eb;
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .home-btn {
+            width: 100%;
+            background-color: #ffffff;
+            color: #2563eb;
+            padding: 14px;
+            border: 2px solid #2563eb;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 24px;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .auth-footer {
+            color: #a1a1aa;
+            font-size: 11px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .help-link {
+            margin-top: 24px;
+            font-size: 13px;
+            color: #71717a;
+        }
+
+        .help-link a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="root-sucesso">
+        
+        <header class="header-rf">
+            <h1 class="header-title">Receita Federal</h1>
+            <div class="header-actions">
+                <i class="fa-regular fa-bell" style="color: #555; font-size: 20px;"></i>
+                <div style="background: #6a9cff; color: white; width: 35px; height: 35px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 14px; font-weight: bold;">RF</div>
+            </div>
+        </header>
+
+        <main class="main-sucesso">
+            <div class="success-card">
+                
+                <div class="success-icon-box">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                
+                <h2 class="success-title">Guia Emitida</h2>
+                <p class="success-message">Sucesso! A sua guia foi gerada com segurança e já está pronta para pagamento.</p>
+
+                <div class="success-details-row">
+                    <div class="detail-box">
+                        <span class="detail-label">VALOR TOTAL</span>
+                        <span class="detail-value">R$ 1.450,20</span>
+                    </div>
+                    <div class="detail-box">
+                        <span class="detail-label">VENCIMENTO</span>
+                        <span class="detail-value blue-text">25 MAI<br>2024</span>
+                    </div>
+                </div>
+
+                <button class="download-btn">
+                    <i class="fa-solid fa-download"></i> Baixar PDF
+                </button>
+                
+                <a href="index.html" class="home-btn">
+                    <i class="fa-solid fa-house"></i> Voltar ao Início
+                </a>
+
+                <div class="auth-footer">
+                    <i class="fa-solid fa-shield-halved"></i> Documento autenticado digitalmente
+                </div>
+            </div>
+
+            <div class="help-link">
+                Não recebeu o e-mail de confirmação? <a href="#">Clique aqui</a>
+            </div>
+        </main>
+
+    </div>
+</body>
+</html>

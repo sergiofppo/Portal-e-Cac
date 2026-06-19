@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receita Federal - Emitir Tributo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-emissao">
+    <div class="page-shell">
+      <header class="emissao-header">
+        <div class="emissao-header-left">
+          <a href="index.html" class="icon-button" aria-label="Fechar">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+          <span class="emissao-title">Receita Federal</span>
+        </div>
+        <div class="emissao-header-right">
+          <a href="#" class="icon-button" aria-label="Notificações">
+            <i class="fa-regular fa-bell"></i>
+          </a>
+          <img class="profile-avatar" src="https://i.pravatar.cc/150?img=11" alt="Perfil" />
+        </div>
+      </header>
+
+      <main class="emissao-main">
+        <!-- Cole isso antes de fechar a tag </main> ou da div principal do emissao.html -->
+<nav class="frame bottom-nav-bar">
+    <a class="frame link" href="index.html">
+        <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
+        <p class="text">Início</p>
+    </a>
+    <a class="frame link active" href="servicos.html">
+        <span class="nav-icon"><i class="fa-solid fa-list-check"></i></span>
+        <p class="text">Serviços</p>
+    </a>
+    <a class="frame link" href="certidoes.html">
+        <span class="nav-icon"><i class="fa-solid fa-certificate"></i></span>
+        <p class="text">Certidões</p>
+    </a>
+    <a class="frame link" href="perfil.html">
+        <span class="nav-icon"><i class="fa-solid fa-user"></i></span>
+        <p class="text">Perfil</p>
+    </a>
+</nav>
+
+        <section class="emissao-card">
+          <span class="badge-step">ETAPA 1 DE 3</span>
+          <h1 class="emissao-heading">Qual tributo você deseja emitir?</h1>
+          <p class="emissao-subtitle">Selecione uma das categorias abaixo para iniciar o processo de emissão do seu documento de arrecadação.</p>
+
+          <div class="emissao-options">
+            <button class="option-card selected" type="button">
+              <div class="option-card-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="option-card-content">
+                <strong>IRPF</strong>
+                <span>Imposto de Renda Pessoa Física</span>
+              </div>
+              <span class="option-card-check" aria-hidden="true"><i class="fa-solid fa-check"></i></span>
+            </button>
+
+            <button class="option-card" type="button">
+              <div class="option-card-icon">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="option-card-content">
+                <strong>DARF Comum</strong>
+                <span>Empresas e Outras Arrecadações</span>
+              </div>
+            </button>
+
+            <button class="option-card" type="button">
+              <div class="option-card-icon">
+                <i class="fa-solid fa-store"></i>
+              </div>
+              <div class="option-card-content">
+                <strong>Simples Nacional</strong>
+                <span>DAS para MEI e Empresas</span>
+              </div>
+            </button>
+
+            <button class="option-card" type="button">
+              <div class="option-card-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="option-card-content">
+                <strong>Outros</strong>
+                <span>Demais taxas e contribuições</span>
+              </div>
+            </button>
+          </div>
+
+          <div class="emissao-actions">
+            <a class="cta-button outline" href="index.html">Voltar</a>
+            <a class="cta-button primary" href="pagamento.html">Continuar <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </section>
+
+        <div class="trusted-footer">
+          <span class="trusted-pill"><i class="fa-solid fa-shield-halved"></i> AMBIENTE SEGURO</span>
+        </div>
+
+        <footer class="emissao-copy">
+          <p>� 2024 Receita Federal do Brasil. Todos os direitos reservados.</p>
+          <p><a href="#">Privacidade</a> � <a href="#">Ajuda</a> � <a href="#">Termos de Uso</a></p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
