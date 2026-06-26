@@ -3,27 +3,28 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Receita Federal</title>
+<title>Ecaac</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body class="page-index">
+  <div class="page-shell">
   <header class="header">
     <div class="brand">
       <img class="avatar" src="https://i.pravatar.cc/80?img=12" alt="Perfil" />
-      <span>Receita Federal</span>
+      <span>Carlos Eduardo</span>
     </div>
     <i class="fa-regular fa-bell bell"></i>
   </header>
   <section class="greeting">
-    <div class="hi">Bom dia,</div>
-    <h1>Carlos Eduardo</h1>
+    <div class="hi">Portal</div>
+    <h1>E-Cac</h1>
     <div class="badge">CONTA PRATA</div>
   </section>
   <section class="quick">
     <div class="qcard primary">
       <div class="ico"><i class="fa-solid fa-money-bill-1"></i></div>
-      <div class="title">Pagar<br/>Tributos</div>
+      <div class="title">Emitir<br/>DARF / DAS</div>
     </div>
     <a href="emissao.html" class="qcard light">
       <div class="ico"><i class="fa-regular fa-file-lines"></i></div>
@@ -38,16 +39,16 @@
     <div class="pend-item danger">
       <div class="pico"><i class="fa-solid fa-circle-exclamation"></i></div>
       <div class="body">
-        <strong>IRPF 2023</strong>
-        <span>Declaração com pendência de malha</span>
+        <strong>Guia DAS Pendente</strong>
+        <span>Vencimento em 3 dias — competência atual</span>
       </div>
       <i class="fa-solid fa-chevron-right chev"></i>
     </div>
     <div class="pend-item info">
       <div class="pico"><i class="fa-regular fa-clock"></i></div>
       <div class="body">
-        <strong>Parcelamento MEI</strong>
-        <span>Próximo vencimento: 20/11/2023</span>
+        <strong>Pendências no CPF/CNPJ</strong>
+        <span>Próximo vencimento: 20/11/2026</span>
       </div>
       <i class="fa-solid fa-chevron-right chev"></i>
     </div>
@@ -59,49 +60,52 @@
   <div class="services">
     <div class="service">
       <div class="sico"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-      <div class="slabel">Extrato DIRPF</div>
+      <div class="slabel">Situação Fiscal</div>
     </div>
     <div class="service">
       <div class="sico"><i class="fa-solid fa-building-columns"></i></div>
-      <div class="slabel">Restituição</div>
+      <div class="slabel">Certidões</div>
     </div>
     <div class="service">
       <div class="sico"><i class="fa-regular fa-id-card"></i></div>
-      <div class="slabel">CPF Digital</div>
+      <div class="slabel">Meu Imposto de Renda</div>
     </div>
     <div class="service">
       <div class="sico"><i class="fa-solid fa-receipt"></i></div>
-      <div class="slabel">Nota Fiscal</div>
+      <div class="slabel">Processos Digitais</div>
     </div>
     <div class="service">
       <div class="sico"><i class="fa-solid fa-handshake"></i></div>
-      <div class="slabel">Parcelamentos</div>
+      <div class="slabel">Caixa Postal</div>
     </div>
   </div>
   <div class="banner">
     <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" alt="Banner" />
     <div class="overlay">
-      <h3>Destine seu Imposto</h3>
-      <p>Apoie projetos sociais através da sua declaração</p>
+      <h3>DASN-SIMEI 2026</h3>
+      <p>Fique em dia com a Receita. O prazo para a declaração anual encerra em breve.</p>
     </div>
   </div>
-  <nav class="tabbar">
-    <div class="tab active">
-      <i class="fa-solid fa-house"></i>
-      <span>Início</span>
-    </div>
-    <div class="tab">
-      <i class="fa-solid fa-th-large"></i>
-      <span>Serviços</span>
-    </div>
-    <div class="tab">
-      <i class="fa-regular fa-credit-card"></i>
-      <span>Cartões</span>
-    </div>
-    <div class="tab">
-      <i class="fa-regular fa-user"></i>
-      <span>Perfil</span>
-    </div>
-  </nav>
+  <nav class="bottom-nav-bar">
+      <a class="link" href="index.html">
+        <span class="nav-icon"><i class="fa-solid fa-house"></i></span>
+        <p class="text">Início</p>
+      </a>
+      <a class="link active" href="servicos.html">
+        <span class="nav-icon"><i class="fa-solid fa-list-check"></i></span>
+        <p class="text">Serviços</p>
+      </a>
+      <a class="link" href="certidoes.html">
+        <span class="nav-icon"><i class="fa-solid fa-certificate"></i></span>
+        <p class="text">Certidões</p>
+      </a>
+      <a class="link" href="perfil.html">
+        <span class="nav-icon"><i class="fa-solid fa-user"></i></span>
+        <p class="text">Perfil</p>
+      </a>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
