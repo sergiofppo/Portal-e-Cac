@@ -1,7 +1,7 @@
 /* =========================================================
-   FinPay — script.js
+   Portal e-CAC — script.js
    1) Highlights the current page in the bottom navigation
-   2) "Copiar código Pix" button on the payments page
+   2) "" button on the payments page
    3) Staggered entrance animation for cards/services
    ========================================================= */
 
